@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Development Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Web Development Hub</h1><p>Learn Modern Web Development</p></header>
+
+<nav>
+<a href="#home" class="nav-link">Home</a>
+<a href="#about" class="nav-link">About</a>
+<a href="#courses" class="nav-link">Courses</a>
+<a href="#stats" class="nav-link">Stats</a>
+<a href="#roadmap" class="nav-link">Roadmap</a>
+<a href="#contact" class="nav-link">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<h1 id="typing-text"></h1>
+<p>Build real-world websites and applications.</p>
+<button onclick="showMessage()">Get Started</button>
+</section>
+
+<section id="about"><h2>About Us</h2><p>Learn HTML, CSS, JavaScript, React and backend technologies.</p></section>
+
+<section id="courses">
+<h2>Courses</h2>
+<div class="course-container">
+<div class="card"><h3>HTML</h3><p>Structure websites.</p></div>
+<div class="card"><h3>CSS</h3><p>Design websites.</p></div>
+<div class="card"><h3>JavaScript</h3><p>Add interactivity.</p></div>
+</div>
+</section>
+
+<section id="stats">
+<h2>Achievements</h2>
+<div class="course-container">
+<div class="card"><h3 class="counter" data-target="5000">0</h3><p>Students</p></div>
+<div class="card"><h3 class="counter" data-target="100">0</h3><p>Courses</p></div>
+<div class="card"><h3 class="counter" data-target="250">0</h3><p>Projects</p></div>
+</div>
+</section>
+
+<section id="roadmap">
+<h2>Roadmap</h2>
+<div class="roadmap-container">
+<div class="roadmap-card"><h3>Step 1</h3><p>HTML</p></div>
+<div class="roadmap-card"><h3>Step 2</h3><p>CSS</p></div>
+<div class="roadmap-card"><h3>Step 3</h3><p>JavaScript</p></div>
+<div class="roadmap-card"><h3>Step 4</h3><p>React</p></div>
+<div class="roadmap-card"><h3>Step 5</h3><p>Node.js</p></div>
+<div class="roadmap-card"><h3>Step 6</h3><p>MongoDB</p></div>
+</div>
+</section>
+
+<section id="contact"><h2>Contact</h2><form><input placeholder="Name"><input placeholder="Email"><textarea placeholder="Message"></textarea><input type="submit" value="Send"></form></section>
+
+<footer><p>© 2026 Web Development Hub</p></footer>
+<button id="topBtn">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
